@@ -10,3 +10,5 @@ In questo progetto usiamo servizi per gestire quasi tutte le periferiche (GPIO, 
 ## Installazione dei servizi
 
 Posizionare i file con estensione `.service` nella directory `/usr/lib/systemd/system/` e gli script che rappresentano i servizi estessi (generalmente con estensione `.py` o `.sh`) nella directory `/home/neum/services`
+
+TODO
