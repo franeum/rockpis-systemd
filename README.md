@@ -11,4 +11,7 @@ In questo progetto usiamo servizi per gestire quasi tutte le periferiche (GPIO, 
 
 Posizionare i file con estensione `.service` nella directory `/usr/lib/systemd/system/` e gli script che rappresentano i servizi estessi (generalmente con estensione `.py` o `.sh`) nella directory `/home/neum/services`
 
-TODO
+per fare il push e il pull in ssh mode digitare nel repository:
+```bash
+git remote set-url origin git@github.com:franeum/rockpis-systemd.git
+```
