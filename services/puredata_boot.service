@@ -1,0 +1,16 @@
+[Unit]
+    Description=Run Puredata at boot
+    After=multi-user.target
+ 
+[Service]
+    Type=simple
+    ExecStartPre=
+    ExecStart=/usr/local/bin/python  /home/prova/prova.py
+    User=root
+    Group=root
+    WorkingDirectory=/home/rock/
+    Restart=always
+    RestartSec=10
+ 
+[Install]
+    WantedBy=multi-user.target
