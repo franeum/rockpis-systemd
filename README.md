@@ -1,4 +1,5 @@
 # rockpis-systemd
+
 systemd manager for rockpis
 
 I servizi attivati tramite `systemd` sono programmati per essere eseguiti all'avvio del sistema, o periodicamente, o in base al verificarsi di determinate condizioni. Un esempio tipico è rappresentato da un servizio che all'avvio del sistema esegue uno script che gestisce il cambio di stato di un pin della scheda.
@@ -9,9 +10,4 @@ In questo progetto usiamo servizi per gestire quasi tutte le periferiche (GPIO, 
 
 ## Installazione dei servizi
 
-Posizionare i file con estensione `.service` nella directory `/usr/lib/systemd/system/` e gli script che rappresentano i servizi estessi (generalmente con estensione `.py` o `.sh`) nella directory `/home/neum/services`
-
-per fare il push e il pull in ssh mode digitare nel repository:
-```bash
-git remote set-url origin git@github.com:franeum/rockpis-systemd.git
-```
+Posizionare i file con estensione `.service` nella directory `/usr/lib/systemd/system/` e gli script che rappresentano i servizi estessi (generalmente con estensione `.py` o `.sh`) nella directory `/home/rock/services`
